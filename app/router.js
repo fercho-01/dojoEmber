@@ -7,6 +7,10 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('contactos');
+  this.route('perfil');
+  this.route('contact');
+  this.route('spies');
 });
 
 export default Router;
