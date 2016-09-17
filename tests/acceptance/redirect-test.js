@@ -7,7 +7,7 @@ test('should link to information about the company.', function (assert) {
   visit('/');
   click('a:contains("Nosotros")');
   andThen(function () {
-    assert.equal(currentURL(), '/about', 'should navigate to about');
+    assert.equal(currentURL(), '/perfil', 'should navigate to about');
   });
 });
 
